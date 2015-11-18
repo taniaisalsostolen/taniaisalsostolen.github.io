@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"> </script>
+        <title>Cabin in the Woods</title>
+    </head>
+
+  <body>
+    <header>CABIN IN THE WOODS</header>
+    <div id='main'>
+
+        <div id="mySVGCanvas"> 
+            <button id="startButton" type="button" align="center" style="display:inline">Enter at your own risk</button>
+
+            <button id="ButtonPrev" type="button" align="left" style="display:none">Previous</button> 
+            <button id="ButtonNext" type="button" align="right" style="display:none">Next</button>
+
+            <h4 id="story" align="center" style="display:none"><p>You and your sister, Violet, decided to go on a secret vacation to the infamous cabin in Ravendale Woods while your parents are overseas on a business trip. <br/><br/>The both of you arrive in the late afternoon at the dilapidated cabin that's a 1.5 hour drive away from the nearest village. Admist the excitement and nervousness, the two of you carelessly forgot to bring a lighter necessary to keep the two of you alive in the chilly woods!</p></h4>
+
+            <h4 id="story2" align="center" style="display:none"><p>"I'll be back!" you shouted to Violet from the front seat of the car as you drove off, "watch some TV to kill time!... if the TV is even working!"<br/><br/>You didn't spend too long in the village as the villagers were quick to close their businesses. On your way back to the Ravendale Woods, a villager stopped you and urged you not to venture into the 'devil's playground' past sunset. A skeptic of superstition, you shook him off and ventured forth.<br/><br/>The drive back wasn't easy, a feeling of dread and anxiousness for Violet's safety bubbled in you.</p></h4>
+
+            <h4 id="story3" align="center" style="display:none"><p>It's 6:66pm when you arrived back at the cabin. Everything looks the same from the outside, allowing you to heave a sigh of relief.<br/><br/> With the lighter in your hand, you walk towards the door of the cabin only to notice a note pinned onto it. You notice the paper is old and the handwritting is messy and ... red... The note read:</p></h4>
+
+            <img src="css/resources/note.png" alt="" id="note" align="center" style="display:none"></img>
+
+            <button id="enter" type="button" align="center" style="display:none">Click any part of the screen to start.</button>
+
+            <button id="continue" type="button" style="display:none">Continue</button>
+
+            <h4 id="level1" style="display:none"><p>Why hello there. I see you've decided to play.<br/><br/>I hope you don't mind that we brought some... friends along... it's been a long time since we've last played a game...<br/><br/>...with a human.</p></h4>
+
+            <h4 id="level1p2" style="display:none"><p>To win this game you have to keep your eyes on the moving creature, that would mean clicking on the creature as many times are you can. If you fail to achieve more than 5 clicks in 10 seconds... they will come and get you.<br/><br/>Answer the knocks to start playing.</p></h4>
+
+            <button id="weepingAngels" type="button" style="display:none">Who are 'they'?</button>
+
+            <button id="answer" type="button" style="display:none">Answer</button>
+
+            <button id="proceed" type="button" style="display:none">Proceed</button>
+
+            <h4 id="level2" style="display:none"><p>Don't be too cocky about you're victory.<br/>They're just rocks.<br/><br/>The next game won't be so easy to win my dear mortal.<br/><br/>He has no mercy, especially for naughty girls like yourself.</p></h4>
+
+            <button id="continue2" type="button" style="display:none">Continue</button>
+
+            <h4 id="level2p2" style="display:none"><p>Make sure he doesn't catch you.<br/><br/>He will come for you in all directions but you have to avoid him at all costs. You'll start with 5 lives, you have to maintain at least one live by the time the game ends to win.</p></h4>
+
+            <button id="slenderMan" type="button" style="display:none">Who is He?</button>
+
+            <button id="hide" type="button" style="display:none">Start hiding!</button>
+
+            <button id="save" type="button" style="display:none">Save Violet!</button>
+
+            <h4 id="lastchp" style="display:none"><p>I am impressed that you made it this far...human.<br/><br/>As promised, we will release little Violet. But-</p></h4>
+
+            <button id="continue3" type="button" style="display:none">Continue</button>
+
+            <h4 id="violet" style="display:none"><p>NOOOO! IT'S A TRICK! RUN AWAY!<br/><br/>THEY WILL LET ME GO BUT THEY WON'T LET YOU!</p></h4>
+
+            <h4 id="lastchp2" style="display:none"><p>You let the cat out of the bag! Now Twisty is MAD.<br/><br/>Little Violet and yourself will NEVER LEAVE THIS CABIN!</p></h4>
+
+            <h4 id="choice" style="display:none"><p><br/><br/><br/>At that moment, you realised that you've been holding on to the lighter you got from the nearby village<br/><br/>You know you will be able to escape the cabin with your sister if you set Twisty on fire. A risk but one with a high success rate.<br/><br/>Do you?</p></h4>
+
+            <button id="risk" type="button" style="display:none">Take the risk</button>
+
+            <button id="wrongchoice" type="button" style="display:none">Do not take the risk</button>
+
+            <button id="continue4" type="button" style="display:none">Continue</button>
+
+            <h4 id="car1" style="display:none"><p>WE DID IT! WE ESCAPED FROM THE HAUNTED CABIN!</p></h4>
+
+        </div> <!--  <article>   article  </article> -->
+
+    </div>
+  </body>
+</html>
+
